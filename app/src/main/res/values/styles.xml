@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="round_button_style" parent="AppTheme">
+        <item name="android:background">@drawable/dummy</item>
+        <item name="android:layout_width">@dimen/round_button_width_and_height</item>
+        <item name="android:layout_height">@dimen/round_button_width_and_height</item>
+    </style>
+
+    <style name="round_button_style.top" parent="round_button_style">
+        <item name="android:layout_marginTop">@dimen/our_activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/our_activity_horizontal_margin</item>
+        <item name="android:layout_marginLeft">@dimen/our_activity_horizontal_margin</item>
+    </style>
+
+    <style name="round_button_style.bottom" parent="round_button_style">
+        <item name="android:layout_marginBottom">@dimen/our_activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/our_activity_horizontal_margin</item>
+        <item name="android:layout_marginLeft">@dimen/our_activity_horizontal_margin</item>
+    </style>
+
+    <style name="scrollbar_shape_style">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scrollbar_track</item>
+        <item name="android:scrollbarSize">12dp</item>
+        <item name="android:scrollbarFadeDuration">2000</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">1000</item>
+    </style>
+
+    <style name="settings_label_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">-45dp</item>
+        <item name="android:layout_toRightOf">@+id/iconBg</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="social_button_w_n_h">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/ltSocialMediaContainer"
+    android:visibility="gone"
+    android:layout_marginBottom="@dimen/default_gap"
+    android:orientation="horizontal"
+    android:padding="@dimen/default_gap">
+
+    <ImageButton
+        android:id="@+id/imgBtnFb"
+        android:background="@drawable/fb"
+        style="@style/social_button_w_n_h" />
+
+    <ImageButton
+        android:id="@+id/imgBtnTwitter"
+        android:background="@drawable/twitter"
+        style="@style/social_button_w_n_h" />
+
+    <ImageButton
+        android:id="@+id/imgBtnGoogle"
+        android:background="@drawable/google_plus"
+        style="@style/social_button_w_n_h" />
+
+</LinearLayout>

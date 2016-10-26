@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_clouds"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/imgBtnGlobe"
+        style="@style/round_button_style.top"
+        android:background="@drawable/icon_globe" />
+
+    <TextView
+        android:id="@+id/lblSelectedCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imgBtnGlobe"
+        android:layout_marginTop="@dimen/our_activity_horizontal_margin"
+        android:layout_centerHorizontal="true"
+        android:text="RECIPES"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imgBtnSound"
+        style="@style/round_button_style.top"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/done_button" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recipeList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:foregroundGravity="center_vertical"
+        android:padding="@dimen/default_gap" />
+
+
+    <ImageButton
+        android:id="@+id/imgBtnSettings"
+        style="@style/round_button_style.bottom"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/left_arrow" />
+
+    <ImageButton
+        android:id="@+id/imgBtnFavorites"
+        style="@style/round_button_style.bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/right_arrow" />
+
+</RelativeLayout>
