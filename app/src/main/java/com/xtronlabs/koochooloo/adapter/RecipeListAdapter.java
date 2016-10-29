@@ -1,6 +1,7 @@
 package com.xtronlabs.koochooloo.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.RecyclerView;
@@ -14,6 +15,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.xtronlabs.koochooloo.R;
+import com.xtronlabs.koochooloo.activity.RecipeDetailsActivity;
 import com.xtronlabs.koochooloo.util.network.response_models.Recipe;
 import com.xtronlabs.koochooloo.view.KoochoolooLabel;
 
@@ -64,52 +66,26 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
         return mRecipesList.size();
     }
 
-    class RecipeListViewHolder extends RecyclerView.ViewHolder {
+    class RecipeListViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
         @BindView(R.id.imgRecipeItemImage)
         ImageView mImgRecipeItemImage;
         @BindView(R.id.recipeItemTitle)
         KoochoolooLabel mRecipeItemTitle;
-        /*@BindView(R.id.imgRecipeItemRemove)
-        ImageButton mImgRecipeItemRemove;*/
 
         public RecipeListViewHolder(View itemView) {
             super(itemView);
             ButterKnife.bind(this, itemView);
+            itemView.setOnClickListener(this);
         }
 
-        /*@OnClick(R.id.imgRecipeItemRemove)
-        public void onClick() {
-            View v = LayoutInflater.from(mContext).inflate(R.layout.screen_four_dialog,null, false);
-            if (v == null) return;
 
-            KoochoolooLabel lblQuestion = (KoochoolooLabel) v.findViewById(R.id.lblDialogRemove);
-            ImageButton btnRemove = (ImageButton) v.findViewById(R.id.btnDialogOk);
-            ImageButton btnCancel = (ImageButton) v.findViewById(R.id.btnDialogCancel);
-
-            lblQuestion.setText("Are you sure, you want to remove the selected item?");
-            btnRemove.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    mRecipesList.remove(getAdapterPosition());
-                    notifyItemRemoved(getAdapterPosition());
-                }
-            });
-
-            btnCancel.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    if (mAlertDialog != null){
-                        mAlertDialog.dismiss();
-                    }
-                }
-            });
-
-            mAlertDialog = new AlertDialog.Builder(mContext)
-                    .setView(v)
-                    .setCancelable(false)
-                    .show();
-
-        }*/
+        @Override
+        public void onClick(View view) {
+            Recipe x = mRecipesList.get(getAdapterPosition());
+            Intent recipeDetails = new Intent(mContext, RecipeDetailsActivity.class);
+            recipeDetails.putExtra("id",x.id);
+            mContext.startActivity(recipeDetails);
+        }
     }
 }

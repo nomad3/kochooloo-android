@@ -42,10 +42,10 @@ public class RecipeDetailsFragment extends Fragment {
     RecyclerView mIngredientToolsList;
     @BindView(R.id.toolsHolder)
     FrameLayout mToolsHolder;
-    @BindView(R.id.imgBtnSettings)
-    ImageButton mImgBottomLeft;
-    @BindView(R.id.imgBtnFavorites)
-    ImageButton mImgBottomRight;
+    @BindView(R.id.imgBtnBack)
+    ImageButton mImgBtnBack;
+    @BindView(R.id.imgBtnForward)
+    ImageButton mImgBtnForward;
 
     public RecipeDetailsFragment() {
     }
@@ -62,8 +62,8 @@ public class RecipeDetailsFragment extends Fragment {
         return view;
     }
 
-    @OnClick({R.id.imgBtnGlobe, R.id.imgBtnSound, R.id.imgBtnRecipeImageLeft,
-            R.id.imgBtnRecipeImageRight, R.id.imgBtnSettings, R.id.imgBtnFavorites})
+
+    @OnClick({R.id.imgBtnGlobe, R.id.imgBtnSound, R.id.imgBtnRecipeImageLeft, R.id.imgBtnRecipeImageRight, R.id.imgBtnBack, R.id.imgBtnForward})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.imgBtnGlobe:
@@ -74,9 +74,9 @@ public class RecipeDetailsFragment extends Fragment {
                 break;
             case R.id.imgBtnRecipeImageRight:
                 break;
-            case R.id.imgBtnSettings:
+            case R.id.imgBtnBack:
                 break;
-            case R.id.imgBtnFavorites:
+            case R.id.imgBtnForward:
                 break;
         }
     }

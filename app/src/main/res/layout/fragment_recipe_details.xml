@@ -118,13 +118,13 @@
 
 
     <ImageButton
-        android:id="@+id/imgBtnSettings"
+        android:id="@+id/imgBtnBack"
         style="@style/round_button_style.bottom"
         android:layout_alignParentBottom="true"
         android:background="@drawable/left_arrow" />
 
     <ImageButton
-        android:id="@+id/imgBtnFavorites"
+        android:id="@+id/imgBtnForward"
         style="@style/round_button_style.bottom"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
