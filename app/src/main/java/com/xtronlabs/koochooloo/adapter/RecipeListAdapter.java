@@ -8,7 +8,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
@@ -16,6 +15,7 @@ import com.bumptech.glide.request.animation.GlideAnimation;
 import com.bumptech.glide.request.target.SimpleTarget;
 import com.xtronlabs.koochooloo.R;
 import com.xtronlabs.koochooloo.activity.RecipeDetailsActivity;
+import com.xtronlabs.koochooloo.util.M;
 import com.xtronlabs.koochooloo.util.network.response_models.Recipe;
 import com.xtronlabs.koochooloo.view.KoochoolooLabel;
 
@@ -23,7 +23,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import butterknife.OnClick;
 
 
 public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.RecipeListViewHolder> {
@@ -84,8 +83,10 @@ public class RecipeListAdapter extends RecyclerView.Adapter<RecipeListAdapter.Re
         public void onClick(View view) {
             Recipe x = mRecipesList.get(getAdapterPosition());
             Intent recipeDetails = new Intent(mContext, RecipeDetailsActivity.class);
-            recipeDetails.putExtra("id",x.id);
+            recipeDetails.putExtra(RecipeDetailsActivity.ID, x.id);
+            recipeDetails.putExtra(RecipeDetailsActivity.TITLE, x.id);
             mContext.startActivity(recipeDetails);
+            M.log("recipeId", x.id + "=" + x.name);
         }
     }
 }

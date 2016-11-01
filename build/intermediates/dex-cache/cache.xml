@@ -2,193 +2,211 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/WhirlyGlobeMaply/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="5f128f5513b879fd49da50f1a5c8b0e8ad6d4bea">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WhirlyGlobeMaply_ec103c552d63f8f871aaa430489bf7f5c102a28d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.2.1/d6f54d76edfbe779a50a8636b10fd3f555d8f780/butterknife-annotations-8.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/butterknife-annotations-8.2.1_76223d4aedbfcc9aa9e903e70a67fc437cb25d73.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/sqliteassethelper-2.0.1_9809414278ed544ef89751c1672087ef7fa4dc52.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.2/8b8310381b690e317f5f0574e9b2dd7034778b4c/jackson-core-2.7.2.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="8b8310381b690e317f5f0574e9b2dd7034778b4c">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/jackson-core-2.7.2_beb95848cd58d8c2567146efac324e1328cbd395.jar" />
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.7.2_beb95848cd58d8c2567146efac324e1328cbd395/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.2.1/d6f54d76edfbe779a50a8636b10fd3f555d8f780/butterknife-annotations-8.2.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/okio-1.8.0_9e3a0303d22dfa0df7a05c36c4f1c0fd5f129f4b.jar" />
+        sha1="d6f54d76edfbe779a50a8636b10fd3f555d8f780">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.2.1_76223d4aedbfcc9aa9e903e70a67fc437cb25d73/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0_d6792642b14060317f64dbfd6d6bc422bd8d7e72.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.0/19f42c154ffc689f40a77613bc32caeb17d744e3/jackson-annotations-2.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="19f42c154ffc689f40a77613bc32caeb17d744e3">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.7.0_87855d75814f5b6e083f910e8d2a8516895a4795.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/glide-3.7.0_7a6a84415c4f8e16092d72e2df80da6347efbd0e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/com.jakewharton-butterknife-8.2.1_1ee8a2ac4094069693e7875635526df1d7d25e77.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="7c4c1fcc34aca536e3389c31527fb3c941b80266">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-23.4.0_65d56aebe1fca9509d1a9cd39d7b4a85ad6293b1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_77c883a1593630b8cfd2de17cce849e925e8659e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.4.0_f6c1075ee70e90d70179050032a79e58e8a963e7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.4.0_e5b1981eeb273c9c341c5094675b9414d1a7a562.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.4.0_88f6aaf4ac3827fd03d18ff2e1e47b3ca3cf0428.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/internal_impl-23.4.0_e587c03dd3589d4cc4bff8d8ecbe705a3312ab3e.jar" />
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_e587c03dd3589d4cc4bff8d8ecbe705a3312ab3e/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_e5b1981eeb273c9c341c5094675b9414d1a7a562/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7c4c1fcc34aca536e3389c31527fb3c941b80266">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-gridlayout-v7-23.4.0_65d56aebe1fca9509d1a9cd39d7b4a85ad6293b1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_f6c1075ee70e90d70179050032a79e58e8a963e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/WhirlyGlobeMaply/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="5f128f5513b879fd49da50f1a5c8b0e8ad6d4bea">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-WhirlyGlobeMaply_ec103c552d63f8f871aaa430489bf7f5c102a28d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_77c883a1593630b8cfd2de17cce849e925e8659e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_9e3a0303d22dfa0df7a05c36c4f1c0fd5f129f4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_88f6aaf4ac3827fd03d18ff2e1e47b3ca3cf0428/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ebcfde13c084f7dd2dd89b5d94e1979410aedc84">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_04edfb910eed0669b49923f8510c3add91ed1183/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.0/19f42c154ffc689f40a77613bc32caeb17d744e3/jackson-annotations-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="19f42c154ffc689f40a77613bc32caeb17d744e3">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.7.0_87855d75814f5b6e083f910e8d2a8516895a4795/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.sqliteasset/sqliteassethelper/2.0.1/d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f/sqliteassethelper-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/sqliteassethelper-2.0.1_9809414278ed544ef89751c1672087ef7fa4dc52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sreerajk.s/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_d6792642b14060317f64dbfd6d6bc422bd8d7e72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="26727ab4a9b58954044738d90b18f003e1acf964">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_fd2e616ffa4f4c55d069417f583011cd401ff795/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.4.0_c3fcb1b075a6bb56d0bc129f6981cec2fccd8a07.jar" />
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_c3fcb1b075a6bb56d0bc129f6981cec2fccd8a07/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.2.1/jars/classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.4.0_7a55913352ed971cf687fc9f693d879cafe85f96.jar" />
+        sha1="ca5e58104f56f918f0fb3a5b1b371ab599ae56b2">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.2.1_1ee8a2ac4094069693e7875635526df1d7d25e77/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_9df8a5d5da3608298d5948de889379f773de4555.jar" />
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_7a6a84415c4f8e16092d72e2df80da6347efbd0e/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-jackson/2.1.0/ef33476a62d9c62dfca6b6c9e086f2e3343a96f4/converter-jackson-2.1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.0"
-        sha1="ef33476a62d9c62dfca6b6c9e086f2e3343a96f4">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/converter-jackson-2.1.0_f75d12f8786f3661216a63c2771a4571edd65ea7.jar" />
-    </item>
-    <item
-        is-multidex="false"
+        is-multidex="true"
         jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.2/84ffa765dd258dbab8695963c41308b054f3a1cb/jackson-databind-2.7.2.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="84ffa765dd258dbab8695963c41308b054f3a1cb">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/jackson-databind-2.7.2_02fe95755de8bc7161ed9a82dbcec654d0d39093.jar" />
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.7.2_02fe95755de8bc7161ed9a82dbcec654d0d39093/classes.dex" />
     </item>
     <item
-        is-multidex="false"
+        is-multidex="true"
+        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-jackson/2.1.0/ef33476a62d9c62dfca6b6c9e086f2e3343a96f4/converter-jackson-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ef33476a62d9c62dfca6b6c9e086f2e3343a96f4">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-jackson-2.1.0_f75d12f8786f3661216a63c2771a4571edd65ea7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_7a55913352ed971cf687fc9f693d879cafe85f96/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
-        jumboMode="false"
+        jumboMode="true"
         optimize="true"
         revision="24.0.0"
         sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
-        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/pre-dexed/debug/okhttp-3.3.0_bfc9f34fc1066535fc3e24fc84405ecc474ceac0.jar" />
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_bfc9f34fc1066535fc3e24fc84405ecc474ceac0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/sreerajk.s/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Volumes/work/AndroidProjects_s/Koochooloo/app/build/intermediates/transforms/dex/debug/folders/1000/10/eventbus-3.0.0_9df8a5d5da3608298d5948de889379f773de4555/classes.dex" />
     </item>
 
 </items>
